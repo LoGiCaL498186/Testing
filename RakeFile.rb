@@ -22,6 +22,10 @@ task :step_6 do
   puts "Test STEP 6"
 end
 
-task :step_7 => [:step_1, :step_2, :step_3, :step_4, :step_5, :step_6] do
+task :step_7 do
+  puts "TEST STEP 7"
+end
+
+task :step_8 => [:step_1, :step_2, :step_3, :step_4, :step_5, :step_6, :step_7] do
   puts "TEST STEP 7"
 end
