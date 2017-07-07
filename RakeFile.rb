@@ -18,6 +18,10 @@ task :step_5 do
   puts "TEST STEP 5"
 end
 
-task :step_6 => [:step_1, :step_2, :step_3, :step_4, :step_5] do
-  puts "TEST STEP 6"
+task :step_6 do
+  puts "Test STEP 6"
+end
+
+task :step_7 => [:step_1, :step_2, :step_3, :step_4, :step_5, :step_6] do
+  puts "TEST STEP 7"
 end
